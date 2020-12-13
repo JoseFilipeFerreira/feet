@@ -21,21 +21,21 @@ if filtering_domain == "spatial"
         smooth_img = conv2(smooth_img,matrix);
         
         [p3, p4] = size(smooth_img);
-        [q1, q2] = size(gray_scale_img);
-        q1 = q1 - 1;
-        q2 = q2 - 1;
+        q1 = 50; // size of the crop box
         i3_start = floor((p3-q1)/2);
         i3_stop = i3_start + q1;
-        i4_start = floor((p4-q2)/2);
-        i4_stop = i4_start + q2;
 
-        smooth_img = smooth_img(i3_start:i3_stop, i4_start:i4_stop, :);
+        i4_start = floor((p4-q1)/2);
+        i4_stop = i4_start + q1;
+
+   II = II(i3_start:i3_stop, i4_start:i4_stop, :);
+figure ,imshow(II);
         
     elseif smoothing_type == "gaussian"
         h = fspecial('gaussian',z,a);
         smooth_img = imfilter(smooth_img, h);
         
-    elseif smoothing_type == "median"
+    elseif smoothing_type == "Butterworth"
         [p,q] = size(matrix);
         smooth_img = medfilt2(smooth_img,[p q]);
     else
