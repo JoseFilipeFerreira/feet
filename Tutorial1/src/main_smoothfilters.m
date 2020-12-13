@@ -87,6 +87,7 @@ elseif filtering_domain == "frequency"
         end
 
         smooth_img = smoothed_image(1:M, 1:N);
+end
 
 imwrite(noisy_img, filepath+"/"+name+"_"+noise_type+"_"+noise_params+".png", "png");
 
