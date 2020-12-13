@@ -37,12 +37,14 @@ function [G,theta] = gradient(img)
     
     %figure, imshow(Ix);
     %figure, imshow(Iy);
+%     imwrite(Ix,'C:\Users\lpfer\Desktop\VC\Tutorial1\images2\flowerIx.png');
+%     imwrite(Iy,'C:\Users\lpfer\Desktop\VC\Tutorial1\images2\flowerIy.png');
 
     G = hypot(Ix,Iy);
     G = G / max(max(G));
     theta = atan2(Iy, Ix);
     
+    %theta
     %figure, imshow(G);
-    %figure, imshow(theta);
 
 end

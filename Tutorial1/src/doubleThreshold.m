@@ -1,7 +1,4 @@
 function [res, weakV, strongV] = doubleThreshold(img, lowThresholdRatio, highThresholdRatio)
-
-    %lowThresholdRatio = 0.5;
-    %highThresholdRatio = 0.75;
     
     %Calculate Threshholds
     highThreshold = 1 - (max(max(img)) * highThresholdRatio);
@@ -12,7 +9,7 @@ function [res, weakV, strongV] = doubleThreshold(img, lowThresholdRatio, highThr
     res = zeros(rows,columns);
     
     %Weak and Strong pixel color values
-    weakV = 0.1; %0.9 25
+    weakV = 0.2; %0.2 25
     strongV = 1; %0 255
     
     %Get strong and weak pixels in the image
