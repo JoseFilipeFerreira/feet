@@ -9,7 +9,6 @@ colorlinks=true,
 urlcolor=blue,
 linkcolor=black}
 \usepackage{subcaption}
-\usepackage[cache=false]{minted}
 \usepackage{listings}
 \usepackage{booktabs}
 \usepackage{multirow}
@@ -21,6 +20,7 @@ linkcolor=black}
 \usepackage{amssymb}
 \usepackage{multirow}
 \usepackage{mwe}
+\usepackage{float}
 \usetikzlibrary{positioning,automata,decorations.markings}
 \AfterEndEnvironment{figure}{\noindent\ignorespaces}
 \AfterEndEnvironment{table}{\noindent\ignorespaces}
@@ -51,7 +51,33 @@ linkcolor=black}
 \pagebreak
 \chapter{Introdução}
 
-\chapter{Exercicio 1 - Smooth Images}
+\chapter{Exercício 1 - Smooth Images}
+\section{Ruído}
+Para introduzir ruído numa imagem foi criado uma função denominada de ruído.
+Esta recebe uma matriz que representa uma imagem, o tipo de ruído a ser
+utilizado e os parâmetros para esse ruído. Caso o tipo de ruído escolhido seja
+\textit{gaussian} o parâmetro representa a variância, caso o ruído seja
+\textit{salt-n-pepper} o parâmetro representa a percentagem de ocorrência.
+
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=0.5\textwidth]{images/flower.jpg}
+        \caption{Imagem Original}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{.5\textwidth}
+  \centering
+    \includegraphics[width=0.95\textwidth]{images/flower_salt-n-pepper_0.2.png}
+  \captionof{figure}{Salt-n-pepper com ocorrência de 0.2}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.95\textwidth]{images/flower_gaussian_0.2.png}
+  \captionof{figure}{Gaussiano com variância 0.2}
+\end{minipage}
+\end{figure}
 
 \chapter{Exercicio 2 - Detect Edges}
 
