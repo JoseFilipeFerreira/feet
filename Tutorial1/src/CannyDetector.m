@@ -1,6 +1,7 @@
 
 %Inputs
-img = imread('C:\Users\lpfer\Desktop\VC\Tutorial1\images\lena.jpg');
+%img = imread('C:\Users\lpfer\Desktop\VC\Tutorial1\images\lena.jpg');
+img = imread('C:\Users\lpfer\Desktop\VC\Tutorial1\images\flower_gaussian_0.2.png');
 %img = imread('C:\Users\lpfer\Desktop\VC\Tutorial1\images\baboon.png', 'png');
 gaussianImg = imnoise(img,'gaussian',0.01,0.001);
 bwImg = im2double(im2gray(gaussianImg));
@@ -32,7 +33,7 @@ Z = nonMax(G,theta);
 
 %double_threshold
 %[res, weak, strong] = doubleThreshold(Z, 0.05, 0.09);
-[res, weak, strong] = doubleThreshold(Z, 0.05, 0.09);
+[res, weak, strong] = doubleThreshold(Z, 0.3, 0.72);
 figure, imshow(res);
 
 %hysteresis_thresholding
@@ -48,7 +49,7 @@ imwrite(Z,'C:\Users\lpfer\Desktop\VC\Tutorial1\images2\OriginalName_edge_canny_n
 %edge strength image AFTER hysteresis thresholding
 imwrite(finalImg,'C:\Users\lpfer\Desktop\VC\Tutorial1\images2\OriginalName_edge_canny_hysteresis_filtersize_variance.png'); 
 
-% figure, imshow(edge(bwImg,'Sobel'));
+figure, imshow(edge(bwImg,'Sobel'));
 % figure, imshow(edge(bwImg,'Prewitt'));
 % figure, imshow(edge(bwImg,'Roberts'));
 % figure, imshow(edge(bwImg,'Canny'));

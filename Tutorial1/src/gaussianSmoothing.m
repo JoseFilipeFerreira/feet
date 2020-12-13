@@ -31,18 +31,3 @@ function gsImg = gaussianSmoothing(img,sigma,x,y)
     
 end
 
-%{
-function g = gaussianKernel(img,sigma,size)
-
-    newSize = floor(size/2);
-    
-    yaux = (-newSize):newSize;
-    y = repmat(yaux,size,1);
-
-    x = y.';
-    
-    normal = 1 / (2.0 * pi * sigma^2);
-    g =  exp(-((x^2 + y*2) / (2.0*sigma*2))) * normal;
-    
-end
-%}
