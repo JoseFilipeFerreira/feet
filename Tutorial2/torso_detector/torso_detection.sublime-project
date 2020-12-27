@@ -1,0 +1,47 @@
+{
+	"folders":
+	[
+		{
+			"path": "include"
+		},
+		{
+			"path": "src"
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Torso Detector",
+		    "cmd": 
+		    [
+		    	"g++",
+	 	    	// "-I${project_path}/include",
+		    	"-I`pkg-config -cflags opencv4`",
+		    	"${project_path}/src/*.cpp",
+		    	"-o", 
+		    	"${file_base_name}",		    	
+		    	// "-L`pkg-config -libs opencv4`",
+		    	"-std=c++11"
+		    ],
+		    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+		    "working_dir": "${file_path}",
+		    "selector": "source.c, source.c++",
+		    "shell": true,
+
+		    "variants":
+		    [
+		        {
+		            "name": "Run",
+		            "cmd": ["./${file_base_name}"],
+		            "shell": true
+		        },
+		        {
+		            "name": "Debug",
+		            "cmd": ["ech", "`(pkg-config -libs opencv4)`"],
+		            "shell": true
+		        }
+		    ]
+		}
+	]
+}
+

@@ -1,0 +1,1262 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"poin",
+				"Point3d"
+			],
+			[
+				"Point",
+				"Point2i"
+			],
+			[
+				"mous",
+				"mouse"
+			],
+			[
+				"coef",
+				"coeff"
+			],
+			[
+				"ran",
+				"range_y"
+			],
+			[
+				"rang",
+				"range_x"
+			],
+			[
+				"targ",
+				"target_dist"
+			],
+			[
+				"P",
+				"Point2f"
+			],
+			[
+				"Poin",
+				"Point2f"
+			],
+			[
+				"floo",
+				"floor_level"
+			],
+			[
+				"obj",
+				"obj_pts_2D"
+			],
+			[
+				"dista",
+				"distance2D"
+			],
+			[
+				"pt",
+				"pts_3D"
+			],
+			[
+				"objec",
+				"objectPoints"
+			],
+			[
+				"cam",
+				"camera_intrinsics"
+			],
+			[
+				"po",
+				"point_3D"
+			],
+			[
+				"CV",
+				"CV_64FC1"
+			],
+			[
+				"came",
+				"camera_plane_pts"
+			],
+			[
+				"Poi",
+				"Point3d"
+			],
+			[
+				"estim",
+				"estimateSurfaceOrientation2D"
+			],
+			[
+				"invalid",
+				"invalid_argument"
+			],
+			[
+				"surface",
+				"surface_points"
+			],
+			[
+				"surfa",
+				"surface_orientation"
+			],
+			[
+				"inval",
+				"invalid_argument"
+			],
+			[
+				"Surf",
+				"SurfaceOrientation"
+			],
+			[
+				"axi",
+				"axis_z"
+			],
+			[
+				"axis",
+				"axis_z_px"
+			],
+			[
+				"rotat",
+				"rotation"
+			],
+			[
+				"floor",
+				"floor_pts"
+			],
+			[
+				"foot",
+				"foot_contour"
+			],
+			[
+				"slo",
+				"x_slope"
+			],
+			[
+				"de",
+				"depth_frame"
+			],
+			[
+				"cv",
+				"CV_64FC1"
+			],
+			[
+				"intr",
+				"intrinsics"
+			],
+			[
+				"point",
+				"point_3D"
+			],
+			[
+				"dep",
+				"depth_val"
+			],
+			[
+				"camera",
+				"camera_plane_pts"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"rota",
+				"rotations"
+			],
+			[
+				"rot",
+				"rotationMatYY"
+			],
+			[
+				"flo",
+				"floor_plane_pts"
+			],
+			[
+				"image",
+				"imageToWorld"
+			],
+			[
+				"world",
+				"worldToImage"
+			],
+			[
+				"dr",
+				"depth_row"
+			],
+			[
+				"ang",
+				"angle_1"
+			],
+			[
+				"angl",
+				"angle_0"
+			],
+			[
+				"depth",
+				"depth_frame"
+			],
+			[
+				"floor_re",
+				"floor_reference"
+			],
+			[
+				"late",
+				"lateral_view"
+			],
+			[
+				"transfor",
+				"transform3D"
+			],
+			[
+				"trans",
+				"transform3D"
+			],
+			[
+				"ske",
+				"skeleton_gait"
+			],
+			[
+				"skele",
+				"skeleton_gait"
+			],
+			[
+				"foo",
+				"foot_base_center"
+			],
+			[
+				"data",
+				"data_file〔argument〕"
+			],
+			[
+				"hip",
+				"hip_center_3D"
+			],
+			[
+				"righ",
+				"right_hip"
+			],
+			[
+				"left",
+				"left_hip"
+			],
+			[
+				"neck",
+				"neck_concavity_idx_left"
+			],
+			[
+				"nck",
+				"neck_concavity_idx_left"
+			],
+			[
+				"max",
+				"max_distance_to_hull_left"
+			],
+			[
+				"max_distance",
+				"max_distance_to_hull_left"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
+				"for",
+				"foreground_mask"
+			],
+			[
+				"poi",
+				"Point2i"
+			],
+			[
+				"pitch",
+				"pitch_angle"
+			],
+			[
+				"min",
+				"min_y"
+			],
+			[
+				"lef",
+				"left_foot_apex_angle"
+			],
+			[
+				"left_he",
+				"left_heel_px"
+			],
+			[
+				"lf",
+				"left_heel"
+			],
+			[
+				"Lef",
+				"LeftAnkle"
+			],
+			[
+				"He",
+				"LeftHeelGroundContact"
+			],
+			[
+				"camer",
+				"camera_intrinsics"
+			],
+			[
+				"estimate",
+				"estimateFloorLevel"
+			],
+			[
+				"con",
+				"concavities"
+			],
+			[
+				"conca",
+				"concavity"
+			],
+			[
+				"conva",
+				"concavity"
+			],
+			[
+				"reference",
+				"reference_torso_height"
+			],
+			[
+				"torso",
+				"torso_height"
+			],
+			[
+				"min_o",
+				"min_row_idx"
+			],
+			[
+				"hi",
+				"hip_right_3D"
+			],
+			[
+				"to",
+				"torso_keypoints"
+			],
+			[
+				"toros",
+				"torso_keypoints"
+			],
+			[
+				"loca",
+				"localAverage"
+			],
+			[
+				"inva",
+				"invalid_argument"
+			],
+			[
+				"loc",
+				"localAverage"
+			],
+			[
+				"avee",
+				"average_if_null"
+			],
+			[
+				"neighbor",
+				"neighbours"
+			],
+			[
+				"lowes",
+				"lowest_torso_row_idx"
+			],
+			[
+				"upp",
+				"upper_keypoints"
+			],
+			[
+				"Right",
+				"RightHip"
+			],
+			[
+				"Torso",
+				"TorsoCenter"
+			],
+			[
+				"refe",
+				"reference_upper_point"
+			],
+			[
+				"low",
+				"lowest_torso_row_idx"
+			],
+			[
+				"MAR",
+				"MARKER_DIAMOND"
+			],
+			[
+				"fil",
+				"filtered_foreground_mask"
+			],
+			[
+				"col",
+				"col_idx"
+			],
+			[
+				"ri",
+				"right_hip"
+			],
+			[
+				"pixel",
+				"pixel_count"
+			],
+			[
+				"outer",
+				"outer_torso_contour"
+			],
+			[
+				"x_di",
+				"x_dist_3"
+			],
+			[
+				"x_",
+				"x_dist_2"
+			],
+			[
+				"out",
+				"outer_torso_contour"
+			],
+			[
+				"ver",
+				"vertical_distance"
+			],
+			[
+				"width",
+				"width_px"
+			],
+			[
+				"centr",
+				"center_pixel"
+			],
+			[
+				"ce",
+				"center_pixel"
+			],
+			[
+				"Left",
+				"LeftUpperLeg"
+			],
+			[
+				"To",
+				"TorsoDetector"
+			],
+			[
+				"LeftUpper",
+				"LeftUpperArm"
+			],
+			[
+				"Ske",
+				"Skeleton"
+			],
+			[
+				"joi",
+				"joint_roi"
+			],
+			[
+				"skel",
+				"skeleton_3D_mean_filtered"
+			],
+			[
+				"sk",
+				"skel_idx"
+			],
+			[
+				"Skele",
+				"SkeletonFilters"
+			],
+			[
+				"St",
+				"StdFixedClipper"
+			],
+			[
+				"re",
+				"reference"
+			],
+			[
+				"Tors",
+				"TorsoL5"
+			],
+			[
+				"Po",
+				"Point3d"
+			],
+			[
+				"type",
+				"typedef"
+			],
+			[
+				"Met",
+				"MetricUpdaterBase"
+			],
+			[
+				"Foot",
+				"FootApexAngle"
+			],
+			[
+				"JO",
+				"JOINT_ID"
+			],
+			[
+				"JOIN",
+				"JOINT_ID_0"
+			],
+			[
+				"GAi",
+				"GaitPhaseID"
+			],
+			[
+				"LEFT_GAI",
+				"LEFT_GAIT_EVENTS"
+			],
+			[
+				"adj",
+				"adjusted_skeleton"
+			],
+			[
+				"Me",
+				"MetricUpdaterBase"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "feet_detector.sublime-project",
+			"settings":
+			{
+				"buffer_size": 883,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"dele",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"termi",
+				"Terminal: Open"
+			],
+			[
+				"terminal",
+				"Preferences: Terminal View: Settings"
+			],
+			[
+				"terminalvi",
+				"Preferences: Terminal View: Readme"
+			],
+			[
+				"ter",
+				"Terminal: Open"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"terminality",
+				"Preferences: Terminality Key Bindings – Default"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"terminus",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"term",
+				"Terminal: Open"
+			],
+			[
+				"projec",
+				"Project: Edit"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"proj",
+				"Project: Edit Project"
+			],
+			[
+				"pro",
+				"Project: Save As"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"setti",
+				"Preferences: Settings"
+			],
+			[
+				"sidebar",
+				"SideBarHider: Toggle Autohide for Current Window"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"project",
+				"Project: Close"
+			],
+			[
+				"toggle side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sttings",
+				"Preferences: Settings"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"project add",
+				"Project Manager: Add New Project"
+			],
+			[
+				"edit",
+				"Project: Edit"
+			],
+			[
+				"pr",
+				"Project Manager: Remove Project"
+			],
+			[
+				"toggl",
+				"View: Toggle Menu"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			],
+			[
+				"create",
+				"ProjectMaker: Create project"
+			],
+			[
+				"edit pro",
+				"Project: Edit"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"del",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"de",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"dleee",
+				"File: Delete"
+			],
+			[
+				"rn",
+				"Rename File"
+			],
+			[
+				"re",
+				"Rename File"
+			],
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"conve",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"ren\t",
+				"Rename File"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"dle",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"r",
+				"Rename File"
+			],
+			[
+				"dl",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"to",
+				"View: Toggle Menu"
+			],
+			[
+				"dlee",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"dee",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"RENA",
+				"Rename File"
+			],
+			[
+				"deele",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"tog",
+				"View: Toggle Menu"
+			],
+			[
+				"togg",
+				"View: Toggle Menu"
+			],
+			[
+				"re\t",
+				"Rename File"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"delete ",
+				"File: Delete"
+			],
+			[
+				"delete fi",
+				"File: Delete"
+			],
+			[
+				"toggle",
+				"View: Toggle Menu"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"linter sho",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"build doc",
+				"DoxyDoxygen: Build Documentation"
+			],
+			[
+				"doxygen ",
+				"DoxyDoxygen: Build Documentation"
+			],
+			[
+				"doxygen",
+				"Preferences: DoxyDoxygen Settings"
+			],
+			[
+				"doxy",
+				"DoxyDoxygen: Unfold All Comments"
+			],
+			[
+				"DOC",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"delete tem",
+				"LaTeXTools: Delete temporary files"
+			],
+			[
+				"DocBlo",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"Block",
+				"Toggle Block Comment"
+			],
+			[
+				"doc",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"REN",
+				"Rename File"
+			],
+			[
+				"delet",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"t",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 148.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/home/joao/Desktop/17Dez/feet_detector/src/main.cpp",
+		"/home/joao/Desktop/17Dez/feet_detector/compile.sh",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/offline/compile.sh",
+		"/run/media/joao/3FB0E47D12A803FF/Data_ASBGoWalker/trials/participant01/participant01_nomarkers/participant01_nomarkers_left_0.5/participant01_nomarkers_left_0.5_corner3/camera_info/posture_depth/camera_info.xml",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/offline/bulk_detection.sh",
+		"/home/joao/.config/sublime-text-3/Packages/TerminalView/README.md",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/ide/algorithm_joint_detector.sublime-project",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/backend/FeetDetector.cpp",
+		"/home/joao/.cache/.fr-bClIdX/console_exec.py",
+		"/home/joao/.config/sublime-text-3/Packages/Terminality/Terminality.sublime-settings",
+		"/home/joao/.config/sublime-text-3/Packages/Terminality/Default.sublime-keymap",
+		"/home/joao/.config/sublime-text-3/Packages/User/Terminality.sublime-settings",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/backend/main_node.cpp",
+		"/home/joao/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/home/joao/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/CMakeLists.txt",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/cv_utils/include/CVUtils.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/CMakeLists_standalone.txt",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/offline/subject_detection.sh",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/config/offline.yaml",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/ide/src/offline/detectKeypoints.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/ide/src/backend/FeetDetector.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/algorithm_joint_detector.sublime-project",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/offline/detectKeypoints.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector_nns/CMakeLists.txt",
+		"/home/joao/.config/sublime-text-3/Packages/User/ROS.sublime-build",
+		"/home/joao/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/algorithm_joint_detector.sublime-workspace",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/offline/algorithm_joint_detector.sublime-project",
+		"/home/joao/.config/sublime-text-3/Packages/User/Projects/algorithm_joint_detector.sublime-project",
+		"/home/joao/.config/sublime-text-3/Packages/User/Projects/JointDetector.sublime-project",
+		"/home/joao/Documents/mount_birdlab_cloud",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/checklists.todo",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/backend/TorsoDetector.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/include/TorsoDetector.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/include/FeetDetector.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/cv_utils/src/Skeleton.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/cv_utils/include/Skeleton.hpp",
+		"/home/joao/report2019/index.todo",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/include/GaitMetrics.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/src/GaitMetrics.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/include/GaitEvents.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/src/GaitEvents.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/src/MetricBase.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/README.md",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/offline/python/validate.sh",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/offline/python/processTrialErrors.py",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/offline/python/generateErrorFiles.py",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/offline/python/ErrorHandling.py",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/offline/python/DataLoading.py",
+		"/home/joao/.cache/.fr-GqyTe4/torso_detection/README.md",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/include/MetricBase.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/cv_utils/src/SkeletonFilters.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/cv_utils/include/SkeletonFilters.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/offline/torso_detection_clipped.avi",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/backend/SkeletonFilters.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/include/MetricAverager.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/include/COMTracker.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/session_replayer/include/TrialData.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/session_replayer/src/TrialData.cpp",
+		"/home/joao/Desktop/walker_data_analysis/include/MouseCoordinateSaver.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/src/GaitEventDetector.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/backend/DetectorWrapperBase.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/src/PostureMetricsWrapper.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/session_replayer/include/ROSSynchronousFramePublisher.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/session_replayer/src/ROSSynchronousFramePublisher.cpp",
+		"/home/joao/Desktop/walker_data_analysis/src/trackMarkers.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_marker_tracker/README.md",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_marker_tracker/CMakeLists.txt",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_marker_tracker/package.xml",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/src/PostureMetrics.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/offline/data/validation_nofilter/DOC/results.tex",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/offline/data/validation_nofilter/_/minmax.txt",
+		"/home/joao/Desktop/walker_data_analysis/python/validate.sh",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/backend/ROSSyncFrameDetectorWrapper.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/include/DetectorWrapperBase.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/src/MetricsWrapper.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/include/PostureMetrics.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/offline/python/ResultValidation.py",
+		"/home/joao/Desktop/walker_data_analysis/python/validate.py",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/offline/python/TrialValidation.py",
+		"/home/joao/Desktop/walker_data_analysis/python/DataLoading.py",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/cv_utils/include/ROSUtils.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/backend/TorsoDetectorWrapper.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/backend/FeetDetectorWrapper.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/include/ROSSyncFrameDetectorWrapper.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/include/TorsoDetectorWrapper.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/include/FeetDetectorWrapper.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/config/gait_metrics.yaml",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/include/SkeletonFilters.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/cv_utils/include/type_check.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/include/DetectorWrapper.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/config/feet_detector.yaml",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/config/torso_detector.yaml",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/backend/ROSUtils.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/src/MetricPublisherBase.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/src/GaitMetricPublisher.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/cv_utils/msg/StampedSkeleton.msg",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/include/DetectorBase.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/include/GaitEventDetector.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/include/GaitMetricPublisher.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/backend/SkeletonFilter.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/include/SkeletonFilter.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/include/MetricsWrapper.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/src/GaitMetricsWrapper.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/include/GaitMetricsWrapper.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/include/PostureMetricsWrapper.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/src/main_node.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/backend/ROSFeetDetectorWrapper.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/src/backend/ROSDetectorWrapper.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector/include/ROSDetectorWrapper.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/src/AlgorithmBase.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/include/AlgorithmBase.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_joint_detector_nns/msg/StampedSkeleton.msg",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/include/DataExporter.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/asbgo_messages/srv/SessionTrigger.srv",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/include/MetricPublisherBase.hpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/src/SkeletonListener.cpp",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/config/extrinsics.yaml",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/algorithm_locomotion_metrics/doc/doc_config",
+		"/run/media/joao/3FB0E47D12A803FF/Dados Rui Moreira/Dados_Hospital_ASBGo/SmartWalkerLogs/Elisabete/2019-3-20_15-34-21/SessionConfiguration.txt",
+		"/run/media/joao/3FB0E47D12A803FF/Dados Rui Moreira/Dados_Hospital_ASBGo/SmartWalkerLogs/Elisabete/2019-3-20_15-36-37/M_LowLevelSensorsData.txt",
+		"/run/media/joao/3FB0E47D12A803FF/Dados Rui Moreira/Dados_Hospital_ASBGo/Logs/LOG_2019_05_17_15_48_38.txt",
+		"/run/media/joao/3FB0E47D12A803FF/Dados Rui Moreira/Dados_Hospital_ASBGo/Logs/LOG_2019_05_03_16_52_30.txt",
+		"/home/joao/Desktop/walker_data_analysis/compile_depth_detector.sh",
+		"/run/media/joao/3FB0E47D12A803FF/Data_ASBGoWalker/trials/participant01_/participant01_nomarkers/participant01_nomarkers_extrinsic_calibration.json",
+		"/media/data1/trials/participant01/participant01_nomarkers/participant01_nomarkers_extrinsic_calibration.json",
+		"/home/joao/Desktop/walker_gui_integration/na_high_evel/src/session_replayer/include/CVUtils.hpp"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "feet_detector.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								249,
+								249
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										400,
+										401
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"region.bluish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										150,
+										151
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 387.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "feet_detector.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 641.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
