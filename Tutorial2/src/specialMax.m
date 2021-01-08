@@ -2,7 +2,6 @@ function maxs = specialMax(img,n)
 
     [rows, columns, ~] = size(img);
     nMaxs = zeros(rows,n);
-    maxs = zeros(rows,1);
      
     for i = 1:rows
         for j = 1:columns
