@@ -1,8 +1,7 @@
-function [left_foot right_foot] = feet_detection(file_name_rgb, file_name_depth)
+function [img] = feet_detection(file_name_rgb, file_name_depth)
 
 depth_img = im2gray(imread(file_name_depth));
-rgb_img = im2gray(imread(file_name_rgb));
-
+%rgb_img = im2gray(imread(file_name_rgb));
 
 minx = 205;
 maxx = 445;
@@ -23,7 +22,7 @@ area_of_interest_depth(area_of_interest_depth > floor_per_point - 100) = 100000;
 area_of_interest_depth(area_of_interest_depth < floor_per_point - 300) = 100000;
 
 area_of_interest_bin = imbinarize(area_of_interest_depth);
-figure, imshow(area_of_interest_bin)
+%figure, imshow(area_of_interest_bin)
 
 area_of_interest_bin_closed = imclose(area_of_interest_bin,strel('square',15));
 area_of_interest_bin_dilated = imdilate(area_of_interest_bin_closed,strel('square',9));
@@ -41,6 +40,8 @@ hold on
 plot(y1, x1, 'green')
 plot(y2, x2, 'green')
 hold off
+
+img = area_of_interest_depth;
 
 % figure,imshow(depth_img)
 % x = [minx maxx maxx minx minx];
