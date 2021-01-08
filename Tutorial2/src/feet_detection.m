@@ -1,7 +1,4 @@
-function [img] = feet_detection(file_name_rgb, file_name_depth)
-
-depth_img = im2gray(imread(file_name_depth));
-%rgb_img = im2gray(imread(file_name_rgb));
+function [img] = feet_detection(rgb_img, depth_img)
 
 minx = 205;
 maxx = 445;
@@ -9,6 +6,7 @@ miny = 80;
 maxy = 380;
 
 area_of_interest_depth = depth_img(miny:maxy, minx:maxx);
+area_of_interest_rgb = rgb_img(miny:maxy, minx:maxx);
 
 floor_per_line = specialMax(area_of_interest_depth, 100);
 
@@ -30,12 +28,17 @@ area_of_interest_bin_dilated = imdilate(area_of_interest_bin_closed,strel('squar
 
 [LToe,LHeel,RToe,RHeel] = findFeet(area_of_interest_bin_dilated);
 
-x1 = [ LToe(1) , LHeel(1) ];
-y1 = [ LToe(2) , LHeel(2) ];
-x2 = [ RToe(1) , RHeel(1) ];
-y2 = [ RToe(2) , RHeel(2) ];
+minx = 205;
+maxx = 445;
+miny = 80;
+maxy = 380;
 
-figure,imshow(area_of_interest_depth)
+x1 = [ LToe(1) + miny , LHeel(1) + miny ];
+y1 = [ LToe(2) + minx , LHeel(2) + minx ];
+x2 = [ RToe(1) + miny , RHeel(1) + miny ];
+y2 = [ RToe(2) + minx , RHeel(2) + minx ];
+
+figure,imshow(rgb_img)
 hold on
 plot(y1, x1, 'green')
 plot(y2, x2, 'green')
