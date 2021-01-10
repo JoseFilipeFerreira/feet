@@ -17,14 +17,14 @@ floor_per_point = repmat(compensated_floor_per_line, 1, maxx - minx + 1);
 
 area_of_interest_depth(area_of_interest_depth > floor_per_point - 100) = 100000;
 
-area_of_interest_depth(area_of_interest_depth < floor_per_point - 300) = 100000;
+area_of_interest_depth(area_of_interest_depth < floor_per_point - 330) = 100000;
 
 area_of_interest_bin = imbinarize(area_of_interest_depth);
 
-area_of_interest_bin_closed = imclose(area_of_interest_bin,strel('square',15));
-area_of_interest_bin_dilated = imdilate(area_of_interest_bin_closed,strel('square',9));
+area_of_interest_bin = imclose(area_of_interest_bin,strel('square',13));
+area_of_interest_bin = imdilate(area_of_interest_bin,strel('square',9));
 
-[LToe,LHeel,RToe,RHeel] = findFeet(area_of_interest_bin_dilated);
+[LToe,LHeel,RToe,RHeel] = findFeet(area_of_interest_bin);
 
 img = rgb_img;
 img = insertShape(img, 'Rectangle', [ minx, miny, maxx-minx, maxy-miny], 'Color', 'red', 'LineWidth', 2);
