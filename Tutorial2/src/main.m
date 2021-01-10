@@ -19,5 +19,12 @@ for i = 1:numel(frames)
         fileName = strcat('.\output\frame',int2str(i-1),'.png');
     end  
     imwrite(img,fileName);
+    
+    [A,map] = rgb2ind(img,256);
+    if i == 1
+        imwrite(A,map,'.\output\og.gif','gif','LoopCount',Inf,'DelayTime',0.1);
+    else
+        imwrite(A,map,'.\output\og.gif','gif','WriteMode','append','DelayTime',0.1);
+    end
 
 end
