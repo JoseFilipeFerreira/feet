@@ -1,8 +1,8 @@
 
 %Get rgb and depth information folders
-framesFolder = '.\assets\60_frames\gait_depth';
+framesFolder = './assets/gait/gait_depth';
 frames = dir(fullfile(framesFolder,'gait_depth_60frames_*.png'));
-vr = VideoReader('.\assets\60_frames\gait_RGB_60frames.avi');
+vr = VideoReader('./assets/gait/gait_RGB_60frames.avi');
 
 for i = 1:numel(frames)
     % read rgb frame from video and respective depth image
@@ -14,9 +14,9 @@ for i = 1:numel(frames)
     
     %Create name and right to file
     if i <= 10
-        fileName = strcat('.\output\frame0',int2str(i-1),'.png');
+        fileName = strcat('./output/frame0',int2str(i-1),'.png');
     else
-        fileName = strcat('.\output\frame',int2str(i-1),'.png');
+        fileName = strcat('./output/frame',int2str(i-1),'.png');
     end  
     imwrite(img,fileName);
     
