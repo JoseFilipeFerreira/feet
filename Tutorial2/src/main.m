@@ -4,13 +4,16 @@ framesFolder = './assets/gait/gait_depth';
 frames = dir(fullfile(framesFolder,'gait_depth_60frames_*.png'));
 vr = VideoReader('./assets/gait/gait_RGB_60frames.avi');
 
+M = zeros(numel(frames),8);
+
 for i = 1:numel(frames)
     % read rgb frame from video and respective depth image
     rgb_img = read(vr,i);    
     file_name_depth = fullfile(framesFolder,frames(i).name);
     depth_img = im2gray(imread(file_name_depth));
     
-    img = feet_detection(rgb_img, depth_img);
+    [img,coords] = feet_detection(rgb_img, depth_img);
+    M(i,:) = coords;
     
     %Create name and right to file
     if i <= 10
@@ -28,3 +31,5 @@ for i = 1:numel(frames)
     end
 
 end
+
+writematrix(M, './output/coords.xls')
