@@ -1,5 +1,0 @@
-main_smoothfilters("../flower.jpg", "salt-n-pepper", 0.1, "frequency", "gaussian", 50, 1)
-main_smoothfilters("../flower.jpg", "salt-n-pepper", 0.1, "frequency", "Butterwort", 2, 80)
-main_smoothfilters("../flower.jpg", "salt-n-pepper", 0.1, "spatial", "average", 10, 0.8)
-main_smoothfilters("../flower.jpg", "gaussian", 0.1, "spatial", "gaussian", 10, 2)
-main_smoothfilters("../flower.jpg", "salt-n-pepper", 0.1, "spatial", "median", 5, 1)
